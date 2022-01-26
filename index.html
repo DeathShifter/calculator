@@ -5,52 +5,44 @@
 	<meta charset="utf-8">
 	<title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="math.js" defer></script>
-    <script src="buttons.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
-<body>    
-    <form>
-        <input type="text" id="display" name="display" value="" readonly>
-    </form>
-    <div>
-        <button>%</button>
-        <button class="divide">÷</button>
-        <button class="clear">C</button>
-        <button>←</button>
-    </div>
-    <div class="container">
-        <div class="row numbers">
-            <button class="7">7</button>
-            <button class="8">8</button>
-            <button class="9">9</button>
-        </div>
-        <button class="multiply">*</button>
-    </div>
-    <div class="container">
-        <div class="row numbers">
-            <button class="4">4</button>
-            <button class="5">5</button>
-            <button class="6">6</button>
-        </div>
-        <button class="subtract">-</button>
-    </div>
-    <div class="container">
-        <div class="row numbers">
-            <button class="1">1</button>
-            <button class="2">2</button>
-            <button class="3">3</button>
-        </div>
-        <button class="add">+</button>
-    </div>
-    <div class="row">
-        <button>"</button>
-
-        <div class="numbers">
-            <button class="0">0</button>
-        </div>
-
-        <button>.</button>
-        <button class="equals">=</button>
-    </div>
+<body>
+    <div class="game-board">
+        <button class="box" id="0"></button>
+        <button class="box" id="1"></button>
+        <button class="box" id="2"></button>
+        <button class="box" id="3"></button>
+        <button class="box" id="4"></button>
+        <button class="box" id="5"></button>
+        <button class="box" id="6"></button>
+        <button class="box" id="7"></button>
+        <button class="box" id="8"></button>
+      </div>
 </body>
+
+
+
+<!-- <body>    
+    <form id="bookForm" style="display:none">
+        <div class="form-example">
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title" required>
+        </div>
+        <div class="form-example">
+            <label for="author">Author: </label>
+            <input type="text" name="author" id="author" required>
+        </div>
+        <div class="form-example">
+            <label for="pages">Number of pages: </label>
+            <input type="text" name="pages" id="pages" required>
+        </div>
+        <div class="form-example">
+            <label for="read">Read: </label>
+            <input type="text" name="read" id="read" required>
+        </div>
+        <input type="submit" value="Send Request" id="sendRequest">
+    </form>
+    <button id="newBookButton">NEW BOOK</button>
+</body> -->
